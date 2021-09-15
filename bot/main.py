@@ -9,7 +9,7 @@ slash = SlashCommand(client, sync_commands=True)
 
 coingecko = "https://api.coingecko.com/api/v3/simple/price?ids=plant-vs-undead-token&vs_currencies=usd,idr,bnb"
 WAIT_DURATION = int(os.environ['WAIT_DURATION'])
-TOKEN = os.environ['ODg3NTEzMzg3OTY4Mzk3MzQz.YUFPQA.eycwXXfneO9Z3PLvJ1bF6PvlZms']
+TOKEN = os.environ['DISCORD_TOKEN']
 
 @client.event
 async def on_ready():
